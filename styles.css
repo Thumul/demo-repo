@@ -1,0 +1,164 @@
+.tagline{
+    color:blueviolet;
+    font-style:italic;
+    padding-left:5%;
+}
+footer{
+    text-align:center;
+    font-family:'Times New Roman';
+    font-size:20px;
+    background-color:#ffa500;
+    color:black;
+    bottom:0;
+    width:100%;
+    left:0;
+    margin-top:100px;
+}
+body{
+    background-attachment:fixed;
+    background-position:center;
+    padding:0;
+    border-width: 0;
+    margin:0;
+}
+.mainmenu{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    position: relative;
+}
+.mainlist{
+    display: inline;
+    position: sticky;
+}
+li a{
+    color: black;
+    position: sticky;
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration:none;
+}
+li a:hover{
+    background-color: rgb(63, 11, 11);
+    color: white;
+}
+header{
+    position:sticky;
+    top:0;
+    left: 0;
+    width: 100%;
+    background-color:#ffa500;
+}
+.cart:hover{
+    transform:rotate(35deg);
+}
+.topic{
+    background-color:#ffa500;
+    font-size: 50px;
+    font-family: Cambria;
+    display: inline-block;
+    margin: 0;
+}
+.logo{
+    background-color:#ffa500;
+    display: block;
+    padding-top:10px;
+    margin:0;
+    height:100px;
+    width:auto;
+}
+.topsection{
+    width:100%;
+    height: 32%;
+    background-color:#ffa500;
+}
+.product{
+    height:270px;
+    width:360px;
+    padding:10px;
+}
+.cell{
+    display:inline-block;
+    max-width:450px;
+    width:auto;
+    height:330px;
+    margin-left:10px;
+    margin-bottom:10px;
+    background-color:#343030;
+}
+.price{
+    font-size:25px;
+    margin-top:0;
+    text-decoration:none;
+    color:white;
+}
+.cart{
+    position:fixed;
+    bottom:50px;
+    right:50px;
+    height:100px;
+    width:100px;
+    background-color:rgba(0, 128, 0, 0.75);
+    border-radius:50px;
+}
+.cartimg{
+    padding:12px;
+}
+.subtopic{
+    padding-left:8%;
+}
+.description{
+    padding-left:5%;
+    padding-right:5%;
+    font-size:20px;
+}
+.cell:hover{
+    transform:scale(1.02,1.02);
+}
+.panel{
+    display:inline-block;
+    width:40%;
+    height:auto;
+}
+.lpane{
+    text-align:left;
+}
+.rpane{
+    text-align:right;
+}
+.sicon{
+    display:inline-block;
+    height:30px;
+    width:30px;
+}
+.gps{
+    margin-bottom:60px;
+    display:inline-block;
+    height:50px;
+    width:50px;
+}
+.icondes{
+    display:inline-block;
+}
+.mail{
+    padding-left: 10px;
+}
+.conlist{
+    list-style-type:none;
+    margin-left:5%;
+}
+.icon{
+    height:50px;
+    width:50px;
+}
+.linklist{
+    top:0;
+    position:fixed;
+    list-style-type:none;
+    position:relative;
+}
+.llist{
+    display:inline;
+}
